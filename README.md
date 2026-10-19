@@ -54,6 +54,17 @@ Key features include:
 - Regional language support for easier access.
 
 ## Technical Approach
+```mermaid
+flowchart TD
+    A["Farmers / FPOs"] --> B["Upload crops and prices"]
+    B --> C["FarmLink Direct Platform"]
+    C --> D["Display products and transparent prices"]
+    D --> E["Group Buying by Nearby Buyers"]
+    E --> F["Combine Orders"]
+    F --> G["Direct Delivery"]
+    G --> H["Better Farmer Earnings"]
+    G --> I["Affordable Prices for Consumers"]
+```
 ### 2.1 Technologies to Be Used
 
 - Frontend: HTML, CSS, JavaScript and Bootstrap.
